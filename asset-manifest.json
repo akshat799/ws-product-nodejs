@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ws-product-nodejs/static/css/main.e5abccf5.chunk.css",
+    "main.js": "/ws-product-nodejs/static/js/main.71851d35.chunk.js",
+    "main.js.map": "/ws-product-nodejs/static/js/main.71851d35.chunk.js.map",
+    "runtime-main.js": "/ws-product-nodejs/static/js/runtime-main.ba08ab27.js",
+    "runtime-main.js.map": "/ws-product-nodejs/static/js/runtime-main.ba08ab27.js.map",
+    "static/js/2.53b8a4fa.chunk.js": "/ws-product-nodejs/static/js/2.53b8a4fa.chunk.js",
+    "static/js/2.53b8a4fa.chunk.js.map": "/ws-product-nodejs/static/js/2.53b8a4fa.chunk.js.map",
+    "static/js/3.ca98d590.chunk.js": "/ws-product-nodejs/static/js/3.ca98d590.chunk.js",
+    "static/js/3.ca98d590.chunk.js.map": "/ws-product-nodejs/static/js/3.ca98d590.chunk.js.map",
+    "index.html": "/ws-product-nodejs/index.html",
+    "static/css/main.e5abccf5.chunk.css.map": "/ws-product-nodejs/static/css/main.e5abccf5.chunk.css.map",
+    "static/js/2.53b8a4fa.chunk.js.LICENSE.txt": "/ws-product-nodejs/static/js/2.53b8a4fa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba08ab27.js",
+    "static/js/2.53b8a4fa.chunk.js",
+    "static/css/main.e5abccf5.chunk.css",
+    "static/js/main.71851d35.chunk.js"
+  ]
+}
