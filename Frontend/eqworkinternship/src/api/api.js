@@ -3,7 +3,8 @@ import axios from 'axios'
 //const port = process.env.REACT_APP_PORT || 5555 ;
 //const baseUrl = `http://localhost:${port}` ; //When Node is on localhost
 
-const baseUrl = `https://bf6a-76-11-76-64.ngrok.io`
+//Running the node server on glitch
+const baseUrl = `https://rift-candle-loan.glitch.me/`
 
 const API = axios.create({baseURL: `${baseUrl}`});
 
