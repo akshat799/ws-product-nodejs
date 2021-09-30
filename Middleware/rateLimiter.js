@@ -8,7 +8,11 @@ const maxRequest = 100;   // Max Request allowed in 5 minutes
 const windowLogInterval = 2;  // Logging Interval is 2 minutes
 
 //Create a redis Client
-const client = redis.createClient();
+const client = redis.createClient({
+    port:'6379',
+    password: `${process.env.REDISPASSWORD}`,
+    host:`${process.env.REDISHOST}`
+});
 
 const rateLimiter = (req , res , next) => {
 
