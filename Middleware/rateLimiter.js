@@ -9,8 +9,6 @@ const windowLogInterval = 2;  // Logging Interval is 2 minutes
 
 //Create a redis Client
 const client = redis.createClient({
-    port:'6379',
-    password: `${process.env.REDISPASSWORD}`,
     url:`${process.env.REDISHOST}`
 });
 
