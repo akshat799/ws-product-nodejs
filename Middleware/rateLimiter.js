@@ -12,6 +12,8 @@ const client = redis.createClient({
     url:`${process.env.REDISHOST}`
 });
 
+client.auth(process.env.REDISPASSWORD)
+
 const rateLimiter = (req , res , next) => {
 
     try{
