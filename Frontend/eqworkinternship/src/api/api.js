@@ -1,13 +1,9 @@
 import axios from 'axios'
 
-const port = process.env.REACT_APP_PORT || 5555 ;
-const baseUrl = `http://localhost:${port}` ; //When Node is on localhost
+//const port = process.env.REACT_APP_PORT || 5555 ;
+//const baseUrl = `http://localhost:${port}` ; //When Node is on localhost
 
-<<<<<<< HEAD
-//const baseUrl= `https://nostalgic-lichterman-33f0a4.netlify.app/`;
-=======
-const baseUrl= `https://backendeqworkinternship.vercel.app/`;
->>>>>>> 96eedf1fe8ba8d0e9de728995fd7ccfa17463a5c
+const baseUrl = `https://rift-candle-loan.glitch.me`
 
 const API = axios.create({baseURL: `${baseUrl}`});
 
