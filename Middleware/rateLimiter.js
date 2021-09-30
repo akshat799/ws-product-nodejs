@@ -11,7 +11,7 @@ const windowLogInterval = 2;  // Logging Interval is 2 minutes
 const client = redis.createClient({
     port:'6379',
     password: `${process.env.REDISPASSWORD}`,
-    host:`${process.env.REDISHOST}`
+    url:`${process.env.REDISHOST}`
 });
 
 const rateLimiter = (req , res , next) => {
